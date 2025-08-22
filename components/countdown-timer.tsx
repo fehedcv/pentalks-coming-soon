@@ -19,7 +19,7 @@ export function CountdownTimer() {
 
   useEffect(() => {
     // Target date: September 22, 2025 (1 month from August 22)
-    const targetDate = new Date("2025-09-22T00:00:00").getTime()
+    const targetDate = new Date(2025, 8, 22, 0, 0, 0).getTime()
 
     const timer = setInterval(() => {
       const now = new Date().getTime()

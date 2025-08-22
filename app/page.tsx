@@ -16,8 +16,8 @@ export default function ComingSoonPage() {
       {/* Content Layer */}
       <div className="relative z-20 flex flex-col min-h-screen">
         {/* Navbar */}
-        <nav className="absolute top-0 left-0 w-full p-8 z-30 ml-2 sm:ml-5">
-          <h1 className="text-2xl font-bold text-white font-[family-name:var(--font-space-grotesk)] drop-shadow-lg">
+        <nav className="absolute top-0 left-0 w-full p-8 z-30 ml-2">
+          <h1 className="text-2xl font-bold text-white font-[family-name:var(--font-space-grotesk)] drop-shadow-lg ">
             Pentalks
           </h1>
         </nav>
