@@ -42,7 +42,7 @@ export default function ComingSoonPage() {
           </div>
 
           {/* Bottom Section with Countdown and Contact */}
-          <div className="absolute bottom-4 left-4 right-4 z-30">
+          <div className="absolute left-4 right-4 z-30 bottom-4 sm:bottom-4 md:bottom-6 lg:bottom-8">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
               {/* Left: Additional countdown info */}
               <div className="text-left sm:ml-5 w-full sm:w-auto">
@@ -53,7 +53,7 @@ export default function ComingSoonPage() {
               </div>
 
               {/* Right: Contact Information */}
-              <div className="text-left sm:text-right sm:mr-5 w-full sm:w-auto">
+              <div className="text-left sm:text-right sm:mr-5 w-full sm:w-auto -mb-4 sm:mb-5">
                 <p className="text-sm text-white/70 font-[family-name:var(--font-dm-sans)] mb-1">Get in touch</p>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-2 sm:mb-5">
                   <a
@@ -61,10 +61,10 @@ export default function ComingSoonPage() {
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
                   >
                     <Phone size={18} />
-                    <span className="font-[family-name:var(--font-dm-sans)]">+91 90741 99551</span>
+                    <span className="font-[family-name:var(--font-dm-sans)]">+1 (234) 567-8900</span>
                   </a>
                   <a
-                    href="https://www.instagram.com/pentalks_here"
+                    href="https://instagram.com/pentalks"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
@@ -75,8 +75,7 @@ export default function ComingSoonPage() {
                 </div>
               </div>
             </div>
-          </div>
-
+          </div>           
         </main>
       </div>
     </div>
