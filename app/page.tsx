@@ -43,28 +43,28 @@ export default function ComingSoonPage() {
 
           {/* Bottom Section with Countdown and Contact */}
           <div className="absolute bottom-4 left-4 right-4 z-30">
-            <div className="flex justify-between items-end">
+            <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4">
               {/* Left: Additional countdown info */}
-              <div className="text-left ml-5">
+              <div className="text-left sm:ml-5 w-full sm:w-auto">
                 <p className="text-sm text-white/70 font-[family-name:var(--font-dm-sans)] mb-1">Launch Date</p>
-                <p className="text-lg mb-5 font-semibold text-white font-[family-name:var(--font-space-grotesk)]">
+                <p className="text-lg mb-2 sm:mb-5 font-semibold text-white font-[family-name:var(--font-space-grotesk)]">
                   September 22, 2025
                 </p>
               </div>
 
               {/* Right: Contact Information */}
-              <div className="text-right mr-5">
+              <div className="text-left sm:text-right sm:mr-5 w-full sm:w-auto">
                 <p className="text-sm text-white/70 font-[family-name:var(--font-dm-sans)] mb-1">Get in touch</p>
-                <div className="flex items-center gap-4 mb-5">
+                <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-2 sm:mb-5">
                   <a
                     href="tel:+1234567890"
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
                   >
                     <Phone size={18} />
-                    <span className="font-[family-name:var(--font-dm-sans)]">+1 (234) 567-8900</span>
+                    <span className="font-[family-name:var(--font-dm-sans)]">+91 90741 99551</span>
                   </a>
                   <a
-                    href="https://instagram.com/pentalks"
+                    href="https://www.instagram.com/pentalks_here"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
@@ -76,6 +76,7 @@ export default function ComingSoonPage() {
               </div>
             </div>
           </div>
+
         </main>
       </div>
     </div>
