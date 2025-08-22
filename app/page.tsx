@@ -16,7 +16,7 @@ export default function ComingSoonPage() {
       {/* Content Layer */}
       <div className="relative z-20 flex flex-col min-h-screen">
         {/* Navbar */}
-        <nav className="absolute top-0 left-0 w-full p-8 z-30 ml-5">
+        <nav className="absolute top-0 left-0 w-full p-8 z-30 ml-2 sm:ml-5">
           <h1 className="text-2xl font-bold text-white font-[family-name:var(--font-space-grotesk)] drop-shadow-lg">
             Pentalks
           </h1>
@@ -57,11 +57,11 @@ export default function ComingSoonPage() {
                 <p className="text-sm text-white/70 font-[family-name:var(--font-dm-sans)] mb-1">Get in touch</p>
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 mb-2 sm:mb-5">
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+91 90741 99551"
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
                   >
                     <Phone size={18} />
-                    <span className="font-[family-name:var(--font-dm-sans)]">+1 (234) 567-8900</span>
+                    <span className="font-[family-name:var(--font-dm-sans)]">+91 90741 99551</span>
                   </a>
                   <a
                     href="https://instagram.com/pentalks"
