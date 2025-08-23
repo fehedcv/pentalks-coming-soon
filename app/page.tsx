@@ -64,13 +64,13 @@ export default function ComingSoonPage() {
                     <span className="font-[family-name:var(--font-dm-sans)]">+91 90741 99551</span>
                   </a>
                   <a
-                    href="https://instagram.com/pentalks"
+                    href="https://instagram.com/pentalks_here"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-white hover:text-white/80 transition-colors"
                   >
                     <Instagram size={18} />
-                    <span className="font-[family-name:var(--font-dm-sans)]">@pentalks</span>
+                    <span className="font-[family-name:var(--font-dm-sans)]">@pentalks_here</span>
                   </a>
                 </div>
               </div>
